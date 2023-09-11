@@ -222,6 +222,8 @@ a {
 }
 
 .team-title {
+	padding-top: 94px;
+	padding-bottom: 50px;
 	text-align: center;
 	color: var(--title-color);
 	font-size: 36px;
@@ -229,7 +231,19 @@ a {
 	letter-spacing: 0.03em;
 }
 
-.team-item {}
+.team-items {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 94px;
+}
+
+.team-item {
+	background-color: #fff;
+}
+
+.team-item img {
+	padding-bottom: 30px;
+}
 
 .team-item-title {
 	text-align: center;
@@ -237,11 +251,13 @@ a {
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 0.03em;
+	padding-bottom: 10px;
 }
 
 .team-item-text {
 	text-align: center;
 	letter-spacing: 0.03em;
+	padding-bottom: 30px;
 }
 
 
@@ -250,24 +266,45 @@ a {
 footer {
 	background-color: var(--background-footer);
 	color: #fff;
+}
 
+.footer-container {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.footer-container>a {
+	padding-bottom: 20px;
 }
 
 .logo-footer {
-	color: #fff
+	color: #fff;
+
 }
 
 address {
+	padding-top: 20px;
 	font-size: 14px;
 	font-style: normal;
 }
 
-address ul li {}
+address>p {
+	padding-bottom: 9px;
+}
+
+address ul li {
+	padding-bottom: 9px;
+}
+
+address ul li:last-child {
+	padding-bottom: 0;
+}
 
 address ul li a {
 	text-decoration: none;
 	opacity: .6;
-	color: #fff
+	color: #fff;
+
 }
 
 address ul li a:hover,
