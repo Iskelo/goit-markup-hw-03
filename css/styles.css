@@ -11,8 +11,21 @@ body {
 	color: var(--subtitle-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+	margin: 0;
+}
+
 .container {
+	outline: 1px solid red;
 	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -22,6 +35,12 @@ body {
 	letter-spacing: 0.02em;
 }
 
+.header-container {
+	display: flex;
+	align-items: center;
+	height: 80px;
+}
+
 .logo {
 	font-family: Raleway;
 	font-weight: 700;
@@ -29,6 +48,7 @@ body {
 	letter-spacing: 3%;
 	text-decoration: none;
 	color: var(--active-color);
+	margin-right: 93px;
 }
 
 .logo .logo-header {
@@ -40,8 +60,23 @@ a {
 	text-decoration: none;
 }
 
-.menu li {
+.list {
 	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+.menu-list {
+	margin-right: 50px;
+}
+
+.menu-list:last-child {
+	margin-right: 0;
 }
 
 .menu .menu-item {
@@ -59,19 +94,34 @@ a {
 	color: var(--active-color);
 }
 
-.contacts li {
-	list-style: none;
+.header-group {
+	margin-left: auto;
 }
 
-.contacts li a {
+.contacts {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.contact-list {
+	margin-right: 40px;
+}
+
+.contact-list:last-child {
+	margin-right: 0;
+}
+
+.contact-list a {
 	text-decoration: none;
 	color: currentColor;
 	font-weight: 500;
 	font-size: 14px;
 }
 
-.contacts li a:hover,
-.contacts li a:focus {
+.contact-list a:hover,
+.contact-list a:focus {
 	color: var(--active-color);
 }
 
