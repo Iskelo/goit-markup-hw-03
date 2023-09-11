@@ -11,6 +11,12 @@ body {
 	color: var(--subtitle-color);
 }
 
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* HEADER */
 .header {
 	letter-spacing: 0.02em;
