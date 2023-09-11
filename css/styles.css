@@ -269,7 +269,7 @@ a {
 
 /* FOOTER */
 
-footer {
+.footer {
 	background-color: var(--background-footer);
 	color: #fff;
 }
@@ -390,5 +390,15 @@ address ul li a:focus {
 
 .card {
 	margin-top: 30px;
-	border: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+.card a img {
+	display: block;
+}
+
+.content {
+	border-bottom: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
 }
