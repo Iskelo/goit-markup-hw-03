@@ -112,10 +112,6 @@ a {
 	color: var(--active-color);
 }
 
-/* .header-group {
-	margin-left: auto;
-} */
-
 .contacts {
 	display: flex;
 	padding-top: 32px;
@@ -152,8 +148,6 @@ a {
 	padding-bottom: 200px;
 
 }
-
-.hero-container {}
 
 .hero-title {
 	color: #fff;
@@ -297,7 +291,6 @@ a {
 
 .logo-footer {
 	color: #fff;
-
 }
 
 address {
@@ -329,7 +322,6 @@ address ul li a:hover,
 address ul li a:focus {
 	opacity: 1;
 }
-
 
 /* PORTFOLIO */
 
@@ -367,7 +359,6 @@ address ul li a:focus {
 .btn-active button {
 	background-color: var(--active-color);
 	color: #fff;
-
 }
 
 .btn button:hover,
@@ -399,8 +390,6 @@ address ul li a:focus {
 .card {
 	border-bottom: 1px solid #eee;
 }
-
-
 
 .content {
 	padding-left: 24px;
